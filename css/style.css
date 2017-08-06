@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Hind');
+
+.row {
+    margin-right: 0;
+}
+
+.header {
+    height: 60px;
+    background: #ededed;
+}
+.philadelphia {
+    width: 128px;
+    height: 36px;
+    margin-left: 158px;
+    margin-top: 11px;
+    background: #1b1b1b;
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+button.btn.philadelphia {
+    color: white;
+}
+.arrow {
+    margin-left: 17px;
+}
+.call {
+    color: #565655;
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-top: 17px;
+}
+.d1 {
+    margin-left: 15px;
+}
+.d2 {
+    margin-left: 40px;
+}
+
+.block-rigth {
+    float: right;
+}
+.icon-m {
+    margin-left: 11px;
+    display: inline;
+}
+.share {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 17px;
+}
+.logo-panel {
+    height: 140px;
+    padding-top: 40px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.line {
+    border-right: 1px solid #ccc;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.advantage {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    padding-right: 40px;
+}
+.sub {
+    color: #7a7a7a;
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.main-menu {
+    background: black;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 12px;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+nav ul li {
+    list-style: none;
+    position: relative;
+
+}
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    height: 44.5px;
+    padding: 28px 21px 31px 21px;
+}
+nav ul li a:hover {
+    color: darkgray;
+    text-decoration: none;
+    border-bottom: 200px #bf232c;
+}
+nav ul li .active {
+    border-bottom: #2e6da4;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    background-color: #bf232c;
+}
+.img-t {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    background: black;
+}
+.arrow-left {
+    left: 0;
+    position: absolute;
+    margin: 350px 0 0 25px;
+}
+.arrow-right {
+    right: 0;
+    position: absolute;
+    margin: 350px 25px 0 0;
+}
+.provide {
+    font-family: 'Hind', sans-serif;
+    color: #bd2631;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 24px;
+    left: 0;
+    position: absolute;
+    margin: 310px 0 0 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.battery {
+    color: white;
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 24px;
+    left: 0;
+    position: absolute;
+    margin: 350px 0 0 100px;
+}
+.stock {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 18px;
+    left: 0;
+    position: absolute;
+    margin: 400px 0 0 100px;
+}
+.layout {
+    background: #bf232c;
+    width: 1400px;
+    height: 128px;
+    position: absolute;
+    bottom: 0;
+}
+.request {
+    color: white;
+    font-family: 'Hind', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+}
+.ups {
+    color: white;
+    font-family: 'Hind', sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 24px;
+}
+.quote {
+    width: 137px;
+    height: 52px;
+    background: white;
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    right: 0;
+
+}

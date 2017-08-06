@@ -1,0 +1,18 @@
+ul {
+	list-style: none;
+}
+.social-information {
+	background: #ededed;
+	padding: 10px 50px;
+}
+.clearfix:after,
+.clearfix:before {
+	display: table;
+	content: '';
+}
+.clearfix:after {
+	clear: both;
+}
+.address-block {
+	float: left;
+}
